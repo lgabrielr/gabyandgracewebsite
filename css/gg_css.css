@@ -1,0 +1,55 @@
+
+.navbar.navbar-default{
+  z-index: 1000;
+  background-color: transparent;
+  border: 0;
+  position: relative;
+  top: 20px;
+}
+
+
+ul.nav.navbar-nav.navbar-right li a{
+  color: #FFFFFF;
+}
+
+ a.navbar-brand img{
+  overflow: auto;
+  position:absolute;
+  z-index: 1001;
+  top: -5px;
+}
+
+.navbar-default .navbar-toggle{
+border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+body{
+  background-color: white;
+  background-image: url('/imgs/samplebg.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#spacer{
+  height: 500px;
+}
+
+#main{
+  background: white;
+  height: 300px;
+}
+
+div.col-sm-4.areas{
+  height: 300px;
+}
+
+div.col-sm-4.areas p{
+  text-align: center;
+  font-size: 30px;
+  font-family: 
+}
