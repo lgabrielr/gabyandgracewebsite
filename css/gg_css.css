@@ -51,5 +51,37 @@ div.col-sm-4.areas{
 div.col-sm-4.areas p{
   text-align: center;
   font-size: 30px;
-  font-family: 
+  font-family:
+}
+
+.spacer.services-section{
+  height: 600px;
+}
+
+.spacer.works-section{
+  height: 100px;
+}
+
+.inner-grid{
+  position:relative;
+  left:-15px;
+  width: calc(100% + 30px);
+  padding: 20px;
+  background-color: white !important;
+  z-index:1001;
+  padding-top: 200px;
+  height: 700px;
+}
+
+
+
+li{
+  list-style: none;
+}
+
+
+
+
+
+
 }
