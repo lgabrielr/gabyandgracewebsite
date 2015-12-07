@@ -55,11 +55,11 @@ div.col-sm-4.areas p{
 }
 
 .spacer.services-section{
-  height: 600px;
+  height: 700px;
 }
 
-.spacer.works-section{
-  height: 100px;
+.spacer.gallery-section{
+  height: 700px;
 }
 
 .inner-grid{
@@ -67,7 +67,7 @@ div.col-sm-4.areas p{
   left:-15px;
   width: calc(100% + 30px);
   padding: 20px;
-  background-color: white !important;
+  background-color: #E1E3E4 !important;
   z-index:1001;
   padding-top: 200px;
   height: 700px;
@@ -79,9 +79,9 @@ li{
   list-style: none;
 }
 
-
-
-
-
-
+.3rdsection{
+  background-color: white;
+  height: 700px;
+  position: relative;
+  z-index: 1000;
 }
