@@ -35,15 +35,6 @@ body{
   background-attachment: fixed;
 }
 
-#spacer{
-  height: 500px;
-}
-
-#main{
-  background: white;
-  height: 300px;
-}
-
 div.col-sm-4.areas{
   height: 300px;
 }
@@ -54,21 +45,36 @@ div.col-sm-4.areas p{
   font-family:
 }
 
-.spacer.services-section{
+.spacer{
   height: 700px;
+  position:relative;
+  left:-15px;
+  width: calc(100% + 30px);
+  z-index: 1000;
 }
 
-.spacer.gallery-section{
-  height: 700px;
+
+.services-section{
+  background-color: white;
+}
+
+.gallery-section{
+
+  background-color: white;
+
+}
+
+.spacer.meetus-section{
+  background-color:
 }
 
 .inner-grid{
   position:relative;
-  left:-15px;
-  width: calc(100% + 30px);
+  left:-20px;
+  width: calc(100% + 40px);
   padding: 20px;
   background-color: #E1E3E4 !important;
-  z-index:1001;
+  z-index:1500;
   padding-top: 200px;
   height: 700px;
 }
@@ -77,11 +83,4 @@ div.col-sm-4.areas p{
 
 li{
   list-style: none;
-}
-
-.3rdsection{
-  background-color: white;
-  height: 700px;
-  position: relative;
-  z-index: 1000;
 }
