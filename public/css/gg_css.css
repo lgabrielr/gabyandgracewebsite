@@ -29,7 +29,7 @@ border: 0;
 
 body{
   background-color: white;
-  background-image: url('/imgs/samplebg.jpg');
+  background-image: url('/images/photos/20140212-184.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -58,10 +58,19 @@ div.col-sm-4.areas p{
   background-color: white;
 }
 
-.gallery-section{
+.email-section{
 
   background-color: white;
+  text-align: center !important;
 
+}
+
+.email-field{
+  width: 350px;
+}
+
+div.form-group.email-field label{
+  text-align:left;
 }
 
 .spacer.meetus-section{
@@ -72,15 +81,54 @@ div.col-sm-4.areas p{
   position:relative;
   left:-20px;
   width: calc(100% + 40px);
-  padding: 20px;
+  padding:
   background-color: #E1E3E4 !important;
   z-index:1500;
-  padding-top: 200px;
-  height: 700px;
+  padding-top: 35px;
 }
 
 
 
 li{
   list-style: none;
+}
+
+div.bg-services{
+  background-color: white !important;
+}
+
+.header-services{
+  font-size: 20px;
+  text-align: center;
+  padding: 30px 75px 35px 75px;
+
+}
+
+figure{
+  text-align: center;
+  height: 150px;
+
+}
+
+figure img{
+  height: 100%;
+  opacity: .9;
+  overflow: auto;
+}
+
+figure h2{
+  margin-top: 10px;
+  color: #ED1D42;
+  font-weight: bold;
+}
+
+.info{
+  padding: 45px 75px 0 75px;
+  text-align: center;
+
+}
+
+.signup-wrapper{
+  width: 250px;
+  text-align: center;
 }
