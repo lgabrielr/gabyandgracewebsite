@@ -52,7 +52,7 @@ div.col-sm-4.areas p{
 }
 
 .spacer{
-  height: 100vh;
+  height: 90vh;
   position:relative;
   left:-15px;
   width: calc(100% + 30px);
@@ -195,6 +195,9 @@ div.head-copy-box h1{
   margin-left: -17px;
   width: 100vw;
   padding-bottom: 5em;
+  padding-top: 10%;
+  margin-top: -10%;
+
 }
 
 div.gallery-spacer header.clearfix h1{
@@ -207,4 +210,14 @@ div.gallery-spacer header.clearfix h1{
 
 .justified-gallery{
 
+}
+
+.slant{
+  transform: skewY(2deg);
+}
+
+.unslant{
+  transform: skewY(-2deg);
+  padding-top: 3%;
+  padding-bottom: 27%;
 }
