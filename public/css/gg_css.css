@@ -30,7 +30,7 @@ border: 0;
 body{
   background-color: white;
   background-image: url('/images/photos/20140212-184.jpg');
-  background-size: auto 135%;
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -51,7 +51,7 @@ div.col-sm-4.areas p{
 }
 
 .spacer{
-  height: 600px;
+  height: 100vh;
   position:relative;
   left:-15px;
   width: calc(100% + 30px);
@@ -163,4 +163,22 @@ figure h2{
 
 .icon-box a i{
   color: #ED1D42;
+}
+
+
+
+div.head-copy-box{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div.head-copy-box h1{
+  font-size: 8vw;
+  font-family: Lato;
+  text-align: -webkit-center;
+  vertical-align: -webkit-baseline-middle;
+  color: white;
+
+
 }
