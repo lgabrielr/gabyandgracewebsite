@@ -33,6 +33,7 @@ body{
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 div.col-sm-4.areas{
@@ -131,4 +132,5 @@ figure h2{
 .signup-wrapper{
   width: 250px;
   text-align: center;
+
 }
