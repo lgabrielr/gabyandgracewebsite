@@ -35,6 +35,7 @@ body{
   background-attachment: fixed;
   overflow-x: hidden;
   background-position: 42% 59%;
+  font-family: Lato,sans-serif;
 
 }
 
@@ -125,6 +126,7 @@ figure h2{
   margin-top: .5em;
   color: #ED1D42;
   font-weight: bold;
+  font-family: Lato,sans-serif;
 }
 
 .info{
@@ -175,10 +177,27 @@ div.head-copy-box{
 
 div.head-copy-box h1{
   font-size: 8vw;
-  font-family: Lato;
+  font-family: Lato,sans-serif;
   text-align: -webkit-center;
   vertical-align: -webkit-baseline-middle;
   color: white;
 
+}
 
+.gallery-row{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.gallery-spacer{
+  background-color: #ED1D42;
+  margin-left: -17px;
+  width: 100vw;
+}
+
+div.gallery-spacer header.clearfix h1{
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  color: white;
 }
