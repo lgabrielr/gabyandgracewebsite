@@ -10,6 +10,7 @@
 
 ul.nav.navbar-nav.navbar-right li a{
   color: #FFFFFF;
+  font-size: 3vh;
 }
 
  a.navbar-brand img{
@@ -34,7 +35,6 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow-x: hidden;
-  background-position: 42% 59%;
   font-family: Lato,sans-serif;
 
 }
@@ -52,7 +52,7 @@ div.col-sm-4.areas p{
 }
 
 .spacer{
-  height: 90vh;
+  height: 43vw;
   position:relative;
   left:-15px;
   width: calc(100% + 30px);
@@ -164,11 +164,14 @@ figure h2{
   padding-right: 3em;
 }
 
-.icon-box a i{
-  color: #ED1D42;
+div.icon-box{
+  margin-top: 2em;
 }
 
-
+.icon-box a i{
+  color: #ED1D42;
+  font-size: 30px;
+}
 
 div.head-copy-box{
   position: relative;
